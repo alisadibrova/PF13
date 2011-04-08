@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="12dip" android:background="@color/orangelight" android:layout_marginLeft="1dip">
+    <TextView android:id="@+id/textView1" android:text="@string/Tag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:editable="false" android:textColor="@color/black" android:textStyle="bold" android:typeface="sans"></TextView>
+    <EditText android:layout_width="match_parent" android:id="@+id/editText1" android:height="5dip" android:layout_margin="1dip" android:layout_height="40dip" android:maxEms="2" android:maxLines="2" android:maxLength="32"></EditText>
+    <TextView android:id="@+id/textView2" android:text="@string/Message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textStyle="bold" android:textColor="@color/black"></TextView>
+    <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/editText2" android:enabled="true" android:height="100dip" android:maxLength="256" android:gravity="top"></EditText>
+    <Button android:layout_width="wrap_content" android:id="@+id/button1" android:layout_height="wrap_content" android:text="@string/Submit" android:enabled="true" android:textStyle="bold" android:layout_margin="1dip" android:editable="false" android:layout_marginLeft="10dip"></Button>
+</LinearLayout>

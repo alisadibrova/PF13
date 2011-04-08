@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, smsapp!</string>
+    <string name="app_name">Ess-Emm-Ess</string>
+    <string name="Tag">Tag</string>
+    <string name="Submit">Submit</string>
+    <string name="Message">Message</string>
+</resources>
