@@ -21,6 +21,10 @@ public class smsapp extends Activity {
         final EditText message;
         message = (EditText)findViewById(R.id.editText2);
         
+        
+        final EditText text;
+        text = (EditText)findViewById(R.id.editText3);
+        
         Button btn;
         btn = (Button) findViewById(R.id.button1);
         btn.setOnClickListener(new OnClickListener() {
@@ -30,6 +34,7 @@ public class smsapp extends Activity {
 				// TODO Auto-generated method stub
 				Toast.makeText(smsapp.this, tag.getText().toString(), 100).show();
 				Toast.makeText(smsapp.this, message.getText().toString(), 100).show();
+				Toast.makeText(smsapp.this, text.getText().toString(), 200).show();
 		        	
 			}
 		});
