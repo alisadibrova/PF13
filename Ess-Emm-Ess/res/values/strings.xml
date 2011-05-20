@@ -5,4 +5,8 @@
     <string name="Tag">Tag</string>
     <string name="Submit">Submit</string>
     <string name="Message">Message</string>
+    <string name="Login">Login</string>
+    <string name="Password">Password</string>
+    <string name="Update">Update</string>
+    <string name="Mssgs">Mssgs</string>
 </resources>

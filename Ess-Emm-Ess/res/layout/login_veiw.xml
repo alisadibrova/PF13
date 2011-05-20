@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/orangelight" android:layout_marginLeft="12dip" android:layout_margin="12dip">
+    <TextView android:layout_height="wrap_content" android:typeface="sans" android:editable="false" android:textStyle="bold" android:text="@string/Login" android:textColor="@color/black" android:id="@+id/TextView01" android:layout_width="wrap_content"></TextView>
+    <EditText android:id="@+id/editTextLogin" android:height="5dip" android:layout_height="40dip" android:maxEms="2" android:maxLines="2" android:maxLength="32" android:layout_width="150dip" android:gravity="right" android:layout_margin="12dip" android:layout_marginRight="12dip" android:layout_marginLeft="40dip" android:inputType="textPersonName"></EditText>
+    <TextView android:layout_height="wrap_content" android:typeface="sans" android:editable="false" android:textStyle="bold" android:textColor="@color/black" android:layout_width="wrap_content" android:text="@string/Password" android:id="@+id/textViewPassword"></TextView>
+    <EditText android:layout_height="40dip" android:maxEms="2" android:height="5dip" android:maxLength="32" android:maxLines="2" android:layout_width="150dip" android:layout_marginLeft="40dip" android:layout_margin="12dip" android:inputType="textPassword" android:id="@+id/EditTextPassword"></EditText>
+    <Button android:layout_width="wrap_content" android:id="@+id/buttonsubmitlogin" android:layout_height="wrap_content" android:text="@string/Submit" android:enabled="true" android:textStyle="bold" android:editable="false" android:layout_marginLeft="10dip" android:layout_margin="12dip"></Button>
+</LinearLayout>
